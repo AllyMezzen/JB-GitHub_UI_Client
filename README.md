@@ -1,4 +1,4 @@
-# GitHub Alternative Issue Visualizer ⁉️
+# GitHub Alternative Issue Visualizer 🔍
 
 ## Description
 
@@ -23,8 +23,11 @@ GitHub UI-Client is a web application built with React and TypeScript that visua
 
 1.  Clone the repository:
    
-    `git clone https://github.com/----
-    cd ---` 
+    ```
+    git clone https://github.com/AllyMezzen/JB-GitHub_UI_Client.git
+    
+    cd JB-GitHub_UI_Client
+    ``` 
     
 2.  Install dependencies:
     
@@ -39,7 +42,10 @@ GitHub UI-Client is a web application built with React and TypeScript that visua
     
 4.  Run the app:
     
-    npm start 
+    npm start
+    
+
+6. Enjoy!
     
 
 ----------
