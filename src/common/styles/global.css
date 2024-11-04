@@ -1,0 +1,53 @@
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+  
+    color-scheme: light dark;
+    /* color: rgba(255, 255, 255, 0.87); */
+    /* background-color: #242424; */
+  
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  
+    --bg-color: light-dark(white, #0d1117);
+    --card-bg: light-dark(#e7ecf1, #161b22);
+    --text-color: light-dark(#24292e, #c9d1d9);
+    --border-color:light-dark(#e7ecf1, #30363d);
+    --button-bg: #238636;
+    --button-hover-bg: #2ea043;
+    --label-color: #484f58;
+    --icon-open-color: #3fb950;
+    --icon-closed-color: #a371f7;
+    --error-color: light-dark(#c14549, #f66f73);
+    --comment-bg: light-dark(#f6f8fa, #30363d);
+    --link-color: light-dark(#0366d6, #58a6ff);
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+  }
+  
+  
+  *,
+  *::before,
+  *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+  }
+
+  .header {
+    background-color: var(--border-color);
+  }
+
+  pre {
+    white-space: pre-wrap; 
+}
+

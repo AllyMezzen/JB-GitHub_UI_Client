@@ -1,0 +1,12 @@
+@media (max-width: 1200px) {
+    .issue-title {
+        align-items: flex-start;
+        flex-direction: column;
+        margin-bottom: 10px;
+        gap: 6px;
+    }
+    
+    .issue-labels {
+        flex-wrap: wrap;
+    }
+}
