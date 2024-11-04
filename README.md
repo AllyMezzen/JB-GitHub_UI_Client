@@ -19,6 +19,10 @@ GitHub UI-Client is a web application built with React and TypeScript that visua
 
 ## Getting Started
 
+### Deployed version
+
+[Watch here](https://jb-git-hub-ui-client.vercel.app/)
+
 ### Installation
 
 1.  Clone the repository:
